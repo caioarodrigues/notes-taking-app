@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#header-links{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    background-color:cadetblue;
+    font-weight: bold;
+    color: white;
+}
+
+#a-header-link{
+    color: white;
+    text-decoration: none;
+    margin-inline: 15px;
+}
+
+#a-header-link:hover{
+    color:aliceblue;
+    transition: 1s;
+}
+
+hr{
+    padding: 3px;
+    background-color: rgb(185, 185, 185);
+    border: 0;
+}
+
+body{
+    background-color: rgb(235, 233, 233);
+}
+
+#main-content{
+    font-size: 20px;
+    padding-top: 5%;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#secondary-content, #terdiary-content{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight:bold;
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#terdiary-content{
+    margin-bottom: 7%;
+}
+/* #hr-footer{
+    margin-top: 10px;
+}
+
+footer{
+    padding: 20px;
+    background-color:cadetblue;
+}
+ */

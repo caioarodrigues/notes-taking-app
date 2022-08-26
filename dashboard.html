@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="log-out" onclick="logout()">Log out</button>
+        </nav>
+        <hr>
+    </header>
+    
+    <main>
+        <div id="greetings">
+            <h1 id="welcome-msg"></h1>
+            <h2 id="secondary-msg"></h2>
+        </div>
+
+        <hr id ="middle-hr">
+
+        <div id="write-note"></div>
+        <div id="notes-list"></div>
+
+        <hr id="bottom-hr">
+
+        <div id="notes-button-div">
+            <button id="new-note" onclick="newNote()">New note</button>
+            <button id="delete-all-notes" onclick="deleteEverything()">Delete everything</button>
+        </div>
+    </main>
+</body>
+<script src="./scripts/dashboard.js"></script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <header></header>
+    
+    <main>
+        <div class="container">
+            <div class="card">
+                <h1>Log in</h1>
+                <div id="errorMsg"></div>
+                
+                <div class="label-float">
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <!--
+                    <label for="username">Username</label>
+                    -->
+                </div>
+            
+                <div class="label-float">            
+                    <input type="password" name="password" id="password" placeholder="password">
+                    <!--
+                    <label for="password">Password</label>
+                    -->
+                </div>
+            
+                <div class="justify-center">
+                    <button onclick="login()">Log in</button>
+                </div>
+
+                <div class="justify-center">
+                    <hr>
+                </div>
+
+                <div>
+                    <p>Don't have an account yet? 
+                        <a href="/register.html">Create one now!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+    <script src="./scripts/login.js"></script>
+</body>
+</html>

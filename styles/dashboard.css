@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    background-color:lightgrey;
+}
+
+#log-out{
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#log-out:hover{
+    background-color: cadetblue;
+    transition: 1s;
+}
+
+#welcome-msg{
+    padding: 15px;
+    font-weight: bold;
+}
+
+#secondary-msg{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#welcome-msg, #secondary-msg{
+    display: flex;
+    justify-content: center;
+}
+
+#notes-button-div{
+    display: flex;
+    justify-content:center;
+}
+
+#new-note, #delete-all-notes{
+    display: flex;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-inline: 10px;
+    background-color: cornflowerblue;
+    border-color: transparent;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-content: center;
+    cursor: pointer;    
+}
+
+#new-note{
+
+}
+
+#delete-all-notes{
+}
+
+#new-note:hover{
+    background-color: cadetblue;
+    transition: 1s;
+}
+
+#delete-note{
+    margin-right: 5px;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#delete-note:hover{
+    background-color: cadetblue;
+    transition: 1s;
+}
+#notes-list{
+    display: flex;
+    padding-left: 25px;
+    justify-content: left;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
